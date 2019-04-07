@@ -44,6 +44,11 @@ const Layout = ({ children }) => (
                   <a href="https://www.gatsbyjs.org">Gatsby</a>
                 </Col>
               </Row>
+              <Row center="xs">
+                <Col sm={8}>
+                  This is v3 of my site. The older versions are still alive, cached on platforms where I have stopped paying subscriptions to keep them public. I will one day go back and find some way to make them available.
+                </Col>
+              </Row>              
             </Grid>
           </footer>
         </div>
