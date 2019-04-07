@@ -635,6 +635,17 @@ pre tt:after {
   flex: 1;
 }
 
+.flex-grid-half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-grid-half .col {
+  max-width: 48%;
+  min-width: 400px;
+}
+
 .flex-grid-thirds {
   display: flex;
   flex-wrap: wrap;
@@ -738,6 +749,15 @@ footer {
 @media only screen and (max-width: 768px) {
   .thirty {
     width: 45%;
+  }
+
+  .flex-grid-half .col {
+    max-width: 100%;
+  }
+
+  .flex-grid-half .col:last-of-type {
+    margin-top: 4rem;
+
   }
 
   .flex-grid-thirds .col {

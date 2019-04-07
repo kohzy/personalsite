@@ -55,7 +55,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section>
-      <div className="flex-grid">
+      <div className="flex-grid-half">
         <div className="col">
           <h4>Current research interests:</h4>
           <ul>
