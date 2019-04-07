@@ -69,6 +69,7 @@ const IndexPage = () => (
         <div className="col press">
           <h4>Features:</h4>
           <ul>
+            <li>2018-19 <a href="http://transittechies.nyc" target="_blank" rel="noopener noreferrer">Transit Techies NYC</a></li>
             <li>2018 <a href="https://www.eventbrite.com/e/the-case-for-inclusivity-tickets-50542811911#" target="_blank" rel="noopener noreferrer">Panel: The Case for Inclusivity</a>, Designit</li>
             <li>2018 <a href="http://www.sva.edu/events/events-exhibitions/unicode" target="_blank" rel="noopener noreferrer">Emerging Tech Innovation Summit</a>, NJII/NJTPA</li>
             <li>2017 <a href="http://www.sva.edu/events/events-exhibitions/unicode" target="_blank" rel="noopener noreferrer">"UNICODE": Juried Exhibition</a>, SVA Galleries</li>
