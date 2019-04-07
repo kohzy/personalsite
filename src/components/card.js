@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Card = ({cardlink,header,body}) => (
-  <a href={cardlink} target="_blank" class="card-link">
+  <a href={cardlink} target="_blank" rel="noopener noreferrer" class="card-link">
 	  <div class="card-body">
 	    <h6>{header}</h6>
 	    <p class="no-margin">{body}</p>

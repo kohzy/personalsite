@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import { Grid, Row, Col } from 'react-flexbox-grid'
 
 import Header from "./header"
 import "./layout.css"
@@ -26,30 +25,27 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
+        <div className="container"
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
             paddingTop: 0,
           }}
         >
+          <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
           <footer>
-            <Grid fluid>
-              <Row>
-                <Col xs={12}>
-                  © {new Date().getFullYear()}, Kohzy, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
-                </Col>
-              </Row>
-              <Row center="xs">
-                <Col sm={8}>
-                  This is v3 of my site. The older versions are still alive, cached on platforms where I have stopped paying subscriptions to keep them public. I will one day go back and find some way to make them available.
-                </Col>
-              </Row>              
-            </Grid>
+            <div className="flex-grid">
+              <div className="col">
+                © {new Date().getFullYear()}, Kohzy, Built with
+                {` `}
+                <a href="https://www.gatsbyjs.org">Gatsby</a>
+              </div>
+            </div>
+            <div className="flex-grid">
+              <div className="col">
+                This is v3 of my site. The older versions are still alive, cached on platforms where I have stopped paying subscriptions to keep them public. I will one day go back and find some way to make them available.
+              </div>
+            </div>
           </footer>
         </div>
       </>

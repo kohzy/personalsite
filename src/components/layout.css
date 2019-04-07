@@ -187,7 +187,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em Bitter, serif;
+  font: 115%/1.45em Bitter, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -337,11 +337,11 @@ ul {
   margin-left: 1.45rem;
   margin-right: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -617,14 +617,39 @@ pre tt:after {
   content: "";
 }
 
+/*flexgrids*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 960px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+.flex-grid-thirds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+  max-width: 32%;
+  min-width: 200px;
+}
+
+
 /*added styling*/
 a {
   color: inherit;
-}
-
-.container-fluid {
-  padding-left: none;
-  padding-right: none;
 }
 
 header a {
@@ -657,7 +682,7 @@ section {
 }
 
 .thirty {
-  width: 35%;
+  width: 30%;
 }
 
 .no-margin {
@@ -686,7 +711,7 @@ footer {
   font-weight: 400;
   line-height: 1rem;
   box-shadow: 0px 2px 4px rgba(20, 0, 64, 0.4);
-  margin: 0.5rem 0;
+  margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .card-body:hover {
@@ -697,10 +722,31 @@ footer {
   margin-bottom: 0.5rem;
 }
 
-/*mobile width*/
+/*responsive widths*/
+@media only screen and (max-width: 992px) {
+  .container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .thirty {
+    width: 45%;
+  }
+
+  .flex-grid-thirds .col {
+    max-width: 50%;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 80%;
+  }
+
+  .flex-grid-thirds .col {
+    max-width: 100%;
   }
 
   .card-body {
