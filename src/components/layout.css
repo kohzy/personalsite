@@ -643,7 +643,7 @@ pre tt:after {
 
 .flex-grid-thirds .col {
   max-width: 32%;
-  min-width: 200px;
+  min-width: 250px;
 }
 
 
@@ -658,6 +658,11 @@ header a {
 
 section {
   margin-bottom: 4rem;
+}
+
+ul li {
+  list-style: none;
+  margin-left: -1.45rem;
 }
 
 .intro {
@@ -743,6 +748,10 @@ footer {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 80%;
+  }
+
+  h6 {
+    font-size: 1rem;
   }
 
   .flex-grid-thirds .col {

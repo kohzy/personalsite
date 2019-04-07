@@ -56,16 +56,26 @@ const IndexPage = () => (
     </section>
     <section>
       <div className="flex-grid">
-        <h4>Current research interests:</h4>
-      </div>
-      <div className="flex-grid">
-        <ul>
-          <li>Mixed reality in shared spaces</li>
-          <li>Translation among systems</li>
-          <li>Airplane turbulence and climate change</li>
-          <li>The scope of things</li>
-        and more...
-        </ul>
+        <div className="col">
+          <h4>Current research interests:</h4>
+          <ul>
+            <li>Mixed reality in shared spaces</li>
+            <li>Translation among systems</li>
+            <li>Airplane turbulence and climate change</li>
+            <li>The scope of things</li>
+            <li>and more...</li>
+          </ul>
+        </div>
+        <div className="col press">
+          <h4>Features:</h4>
+          <ul>
+            <li>2018 <a href="https://www.eventbrite.com/e/the-case-for-inclusivity-tickets-50542811911#" target="_blank" rel="noopener noreferrer">Panel: The Case for Inclusivity</a>, Designit</li>
+            <li>2018 <a href="http://www.sva.edu/events/events-exhibitions/unicode" target="_blank" rel="noopener noreferrer">Emerging Tech Innovation Summit</a>, NJII/NJTPA</li>
+            <li>2017 <a href="http://www.sva.edu/events/events-exhibitions/unicode" target="_blank" rel="noopener noreferrer">"UNICODE": Juried Exhibition</a>, SVA Galleries</li>
+            <li>2017 <a href="http://area.areaware.com/virtual-flower/" target="_blank" rel="noopener noreferrer">Interview with Gahee Kang</a>, Areaware</li>
+            <li>2016 <a href="https://www.fastcompany.com/3063390/this-smart-speaker-becomes-a-communication-hub-during-disasters" target="_blank" rel="noopener noreferrer">This Smart Speaker Becomes A Communication Hub During Disasters</a>, FastCo</li>
+          </ul>
+        </div>
       </div>
     </section>
     <section>
@@ -94,6 +104,28 @@ const IndexPage = () => (
             cardlink={"https://www.instagram.com/stories/highlights/17991879742088419/"}
           />
         </div>
+        <div className="col">
+          <Card 
+            header={"tranquil-inlet-58238"}
+            body={"Chat messages as a meditative ripple pool experience. Exhibited in SVA Galleries."}
+            cardlink={"https://vimeo.com/198277993"}
+          />
+        </div>
+        <div className="col">
+          <Card 
+            header={"Sift"}
+            body={"Concept device to help canners identify recyclable materials. Runner Up, Core 77 Design Awards 2017."}
+            cardlink={"https://designawards.core77.com/Service-Design/60916/Sift"}
+          />
+        </div>
+        <div className="col">
+          <Card 
+            header={"WristGuard"}
+            body={"Concept device for sanitation worker safety. Winner, IXDA Student Design Challenge 2016."}
+            cardlink={"https://interactiondesign.sva.edu/blog/2016/wristguard-wins-the-2016-ixda-student-design"}
+          />
+        </div>
+        
       </div>
     </section>
   </Layout>
