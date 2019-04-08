@@ -697,6 +697,15 @@ ul li {
   padding: 0rem;
 }
 
+.random-table tr td{
+  vertical-align: top;
+  padding-bottom: 2rem;
+}
+
+.twenty {
+  width: 20%;
+}
+
 .thirty {
   width: 30%;
 }
