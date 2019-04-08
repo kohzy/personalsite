@@ -12,7 +12,7 @@ const IndexPage = () => (
     <section class="intro">
       <div className="flex-grid">
         <div className="col">
-          <h5>I’m interested in many things, but I’ve found that cities, systems, and human interaction have been persistent threads.</h5>
+          <h5>I’m interested in <a href="https://docs.google.com/document/d/18PWPhkJfq7Y-BbmgPNiEH2359H1xxxG0jB6SOq34Sx4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">many things</a>, but I’ve found that cities, systems, and human interaction have been persistent threads.</h5>
           <h5>I work at <a href="https://www.intersection.com/urban-partnerships/" target="_blank" rel="noopener noreferrer">Intersection</a>. We do digital media for urban environments; I specifically focus on our <a href="https://www.intersection.com/product/ixnconnect/" target="_blank" rel="noopener noreferrer">transit information product</a>. Previously, I’ve spent time at <a href="https://www.uber.com/business/" target="_blank" rel="noopener noreferrer">Uber</a> and at <a href="https://getlua.com/" target="_blank" rel="noopener noreferrer">Lua</a>. At various stages, I’ve done design, marketing, ops, finance. For now, I’ve settled in the space between product and design. </h5>
           <h5 class="no-margin">I’m a slow <a href="https://www.goodreads.com/review/list/71258654-kohzy?shelf=currently-reading" target="_blank" rel="noopener noreferrer">reader</a>, an even slower <a href="https://blog.kohzy.com/" target="_blank" rel="noopener noreferrer">writer</a>, and slothlike when it comes to texts or email.</h5>
         </div>
@@ -58,12 +58,13 @@ const IndexPage = () => (
       <div className="flex-grid-half">
         <div className="col">
           <h4>Current research interests:</h4>
-          <ul>
+          <ul><a href="https://docs.google.com/document/d/18PWPhkJfq7Y-BbmgPNiEH2359H1xxxG0jB6SOq34Sx4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
             <li>Mixed reality in shared spaces</li>
             <li>Translation among systems</li>
             <li>Airplane turbulence and climate change</li>
             <li>The scope of things</li>
             <li>and more...</li>
+          </a>
           </ul>
         </div>
         <div className="col press">
@@ -81,7 +82,7 @@ const IndexPage = () => (
     </section>
     <section>
       <div className="flex-grid">
-          <h4>Select projects:</h4>
+          <h4>Some projects:</h4>
       </div>
       <div className="flex-grid-thirds">
         <div className="col">
