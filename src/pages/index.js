@@ -24,6 +24,7 @@ const IndexPage = () => (
         <div className="col">
           <ul className="secondary-nav">
             <li><h4><a href="https://docs.google.com/document/d/18PWPhkJfq7Y-BbmgPNiEH2359H1xxxG0jB6SOq34Sx4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Questions</a></h4></li>
+            <li><h4><Link to="/translations">Translation</Link></h4></li>
             <li><h4><a href="https://blog.kohzy.com/" target="_blank" rel="noopener noreferrer">Writing</a></h4></li>
           </ul>
         </div>
