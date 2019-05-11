@@ -128,6 +128,7 @@ const IndexPage = () => (
         
       </div>
     </section>
+    {/*
     <section>
       <div className="flex-grid">
           <h4>Other things I'm interested in:</h4>
@@ -136,6 +137,7 @@ const IndexPage = () => (
           <InterestScroll id="interests" />
       </div>
     </section>
+    */}
   </Layout>
 )
 

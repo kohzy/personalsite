@@ -774,6 +774,26 @@ footer {
   }
 }
 
+/*translations page*/
+.translations-table tbody {
+  vertical-align: top;
+}
+
+.translations-table th {
+  font-size: 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.translations-table td:nth-child(2) {
+  font-size: 0.8rem;
+}
+
+.translations-table td:nth-child(3) {
+  font-size: 0.8rem;
+}
+
+/*media queries*/
 @media only screen and (max-width: 480px) {
   html {
     font-size: 80%;
