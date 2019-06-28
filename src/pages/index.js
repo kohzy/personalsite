@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Card from "../components/card"
-import InterestScroll from "../components/interestscroll"
 
 const IndexPage = () => (
   <Layout>

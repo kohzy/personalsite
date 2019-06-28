@@ -39,6 +39,11 @@ const TranslationsPage = () => (
                 <td>by Dai Minjie, GQ Report, Mar 31, 2019</td>
                 <td>May 11, 2019</td>
               </tr>
+              <tr>
+                <td><a href="https://docs.google.com/document/d/1bw283NzGqbF7GV9R2Xb56Ab78iUhMK5QDI7NVReYirI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">One</a></td>
+                <td>by Jia Xingjia, in his book <i>LiaoCao</i>, 2018</td>
+                <td>Jun 27, 2019</td>
+              </tr>
             </tbody>
           </table>
         </div>
