@@ -44,6 +44,11 @@ const TranslationsPage = () => (
                 <td>by Jia Xingjia, in his book <i>LiaoCao</i>, 2018</td>
                 <td>Jun 27, 2019</td>
               </tr>
+              <tr>
+                <td><a href="https://docs.google.com/document/d/1wkPINr3DO9ryLeN8KT-JAWCY0EbP7yqPxZ5NktRWgt8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">An Onrushing Wave</a></td>
+                <td>by He Caitou, in his book <i>You aren't important, but your likes are</i>, 2018</td>
+                <td>Sep 1, 2019</td>
+              </tr>
             </tbody>
           </table>
         </div>
