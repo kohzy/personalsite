@@ -21,7 +21,7 @@ const TranslationsPage = () => (
             <tbody>
               <tr>
                 <th width="40%">piece</th>
-                <th>source</th>
+                <th width="40%">source</th>
                 <th>translated</th>
               </tr>
               <tr>
@@ -48,6 +48,11 @@ const TranslationsPage = () => (
                 <td><a href="https://docs.google.com/document/d/1wkPINr3DO9ryLeN8KT-JAWCY0EbP7yqPxZ5NktRWgt8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">An Onrushing Wave</a></td>
                 <td>by He Caitou, in his book <i>You aren't important, but your likes are</i>, 2018</td>
                 <td>Sep 1, 2019</td>
+              </tr>
+              <tr>
+                <td><a href="https://docs.google.com/document/d/1fELH-0fXzvye52lpcaV0ZntFamZ49ushNViT3QMmZSc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">How have we become so susceptible to spam and fake news?</a></td>
+                <td>by He Caitou, in his book <i>You aren't important, but your likes are</i>, 2018</td>
+                <td>Sep 9, 2019</td>
               </tr>
             </tbody>
           </table>
