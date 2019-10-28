@@ -128,6 +128,14 @@ const IndexPage = () => (
         
       </div>
     </section>
+    <section>
+      <div className="flex-grid">
+          <h4>I have a newsletter:</h4>
+      </div>
+      <div className="flex-grid">
+          📬<a href="https://buttondown.email/kohzy" target="_blank" rel="noopener noreferrer">You can read it here</a>.📬
+      </div>
+    </section>
     {/*
     <section>
       <div className="flex-grid">
