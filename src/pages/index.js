@@ -24,7 +24,6 @@ const IndexPage = () => (
           <ul className="secondary-nav">
             <li><h4><a href="https://docs.google.com/document/d/18PWPhkJfq7Y-BbmgPNiEH2359H1xxxG0jB6SOq34Sx4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Questions</a></h4></li>
             <li><h4><Link to="/translations">Translation</Link></h4></li>
-            <li><h4><a href="https://blog.kohzy.com/" target="_blank" rel="noopener noreferrer">Writing</a></h4></li>
           </ul>
         </div>
         <div className="col">
@@ -94,7 +93,7 @@ const IndexPage = () => (
           <Card 
             header={"StreetSmartAR"}
             body={"Grad thesis work. A multidisciplinary exploration into how public AR usage might affect human interaction."}
-            cardlink={"http://streetsmartar.design/"}
+            cardlink={"http://streetsmartar.herokuapp.com/"}
           />
         </div>
         <div className="col">
