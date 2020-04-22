@@ -55,6 +55,11 @@ const TranslationsPage = () => (
                 <td>Sep 9, 2019</td>
               </tr>
               <tr>
+                <td><a href="https://docs.google.com/document/d/1YPYk0RZ9pigMtUP90W5iDkFgB0_l4hsyeeXKZtKPkCo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Crafting Character Through Landscape</a></td>
+                <td>by Wang Shu, in his book <i>To Build a House</i>, 2018</td>
+                <td>Nov 18, 2019</td>
+              </tr>
+              <tr>
                 <td><a href="https://docs.google.com/document/d/1XkoPcjAaNN2XbsVDDbgK-VrjPsv3m3YUdxGOy-QXzfA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">"Our Mister": A Recollection</a></td>
                 <td>by Yang Jiang, 1980</td>
                 <td>Apr 19, 2020</td>
