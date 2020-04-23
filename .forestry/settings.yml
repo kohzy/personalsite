@@ -3,7 +3,14 @@ new_page_extension: html
 auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: src/content/posts
+  label: Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - blog
 upload_dir: static/uploads
 public_path: '"static/uploads"'
 front_matter_path: ''
