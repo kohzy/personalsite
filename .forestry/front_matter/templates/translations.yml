@@ -1,4 +1,14 @@
 ---
 label: Translations
 hide_body: false
-fields: []
+fields:
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+- name: document_url
+  type: text
+  config:
+    required: false
+  label: Document URL
