@@ -62,7 +62,7 @@ const TranslationsPage = () => (
               <tr>
                 <td><a href="https://docs.google.com/document/d/1XkoPcjAaNN2XbsVDDbgK-VrjPsv3m3YUdxGOy-QXzfA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">"Our Mister": A Recollection</a></td>
                 <td>by Yang Jiang, 1980</td>
-                <td>Apr 20, 2020</td>
+                <td>Apr 19, 2020</td>
               </tr>
               <tr>
                 <td><a href="https://docs.google.com/document/d/1FMfLkh8d78McxdLhr-D4fyQGGaP7ASrUsqZmvxj30PE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Preface to <i>Random Thoughts</i></a></td>
