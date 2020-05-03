@@ -1,12 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+
+import styles from "./card.module.css"
 
 const Card = ({cardlink,header,body}) => (
-  <a href={cardlink} target="_blank" rel="noopener noreferrer" className="card-link">
-	  <div className="card-body">
+  <a href={cardlink} target="_blank" rel="noopener noreferrer" className={styles.cardlink}>
+	  <div className={styles.cardbody}>
 	    <h6>{header}</h6>
-	    <p className="no-margin">{body}</p>
+	    <p>{body}</p>
 	  </div>
 	</a>
 )

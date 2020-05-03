@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Card from "../components/card"
 
@@ -135,16 +134,6 @@ const IndexPage = () => (
           📬<a href="https://buttondown.email/kohzy" target="_blank" rel="noopener noreferrer">You can read it here</a>.📬
       </div>
     </section>
-    {/*
-    <section>
-      <div className="flex-grid">
-          <h4>Other things I'm interested in:</h4>
-      </div>
-      <div className="flex-grid">
-          <InterestScroll id="interests" />
-      </div>
-    </section>
-    */}
   </Layout>
 )
 
