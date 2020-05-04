@@ -1,0 +1,17 @@
+.table tbody {
+    vertical-align: top;
+  }
+  
+.table th {
+    font-size: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+.table td:nth-child(2) {
+    font-size: 0.8rem;
+  }
+  
+.table td:nth-child(3) {
+    font-size: 0.8rem;
+  }

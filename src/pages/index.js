@@ -3,7 +3,10 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Card from "../components/card"
+import Card from "../components/Cards/card"
+import CardGrid from "../components/Cards/cardgrid"
+
+import FeatureList from "../components/Features/featurelist"
 
 const IndexPage = () => (
   <Layout>
@@ -65,14 +68,7 @@ const IndexPage = () => (
         </div>
         <div className="col press">
           <h4>Features:</h4>
-          <ul>
-            <li>2018-19 <a href="http://transittechies.nyc" target="_blank" rel="noopener noreferrer">Transit Techies NYC</a></li>
-            <li>2018 <a href="https://www.eventbrite.com/e/the-case-for-inclusivity-tickets-50542811911#" target="_blank" rel="noopener noreferrer">Panel: The Case for Inclusivity</a>, Designit</li>
-            <li>2018 <a href="http://www.sva.edu/events/events-exhibitions/unicode" target="_blank" rel="noopener noreferrer">Emerging Tech Innovation Summit</a>, NJII/NJTPA</li>
-            <li>2017 <a href="http://www.sva.edu/events/events-exhibitions/unicode" target="_blank" rel="noopener noreferrer">"UNICODE": Juried Exhibition</a>, SVA Galleries</li>
-            <li>2017 <a href="http://area.areaware.com/virtual-flower/" target="_blank" rel="noopener noreferrer">Interview with Gahee Kang</a>, Areaware</li>
-            <li>2016 <a href="https://www.fastcompany.com/3063390/this-smart-speaker-becomes-a-communication-hub-during-disasters" target="_blank" rel="noopener noreferrer">This Smart Speaker Becomes A Communication Hub During Disasters</a>, FastCo</li>
-          </ul>
+          <FeatureList />
         </div>
       </div>
     </section>
@@ -80,51 +76,7 @@ const IndexPage = () => (
       <div className="flex-grid">
           <h4>Some projects:</h4>
       </div>
-      <div className="flex-grid-thirds">
-        <div className="col">
-          <Card 
-            header={"Transit Techies NYC"}
-            body={"A bimonthly meetup around transit and code. Lightning talks, demos, and pizza."}
-            cardlink={"https://transittechies.nyc/"}
-          />
-        </div>
-        <div className="col">
-          <Card 
-            header={"StreetSmartAR"}
-            body={"Grad thesis work. A multidisciplinary exploration into how public AR usage might affect human interaction."}
-            cardlink={"http://streetsmartar.herokuapp.com/"}
-          />
-        </div>
-        <div className="col">
-          <Card 
-            header={"Insta-tales"}
-            body={"Speculative microfiction through Instagram Stories. I take a photo of the city and write a story."}
-            cardlink={"https://www.instagram.com/stories/highlights/17991879742088419/"}
-          />
-        </div>
-        <div className="col">
-          <Card 
-            header={"tranquil-inlet-58238"}
-            body={"Chat messages as a meditative ripple pool experience. Exhibited in SVA Galleries."}
-            cardlink={"https://vimeo.com/198277993"}
-          />
-        </div>
-        <div className="col">
-          <Card 
-            header={"Sift"}
-            body={"Concept device to help canners identify recyclable materials. Runner Up, Core 77 Design Awards 2017."}
-            cardlink={"https://designawards.core77.com/Service-Design/60916/Sift"}
-          />
-        </div>
-        <div className="col">
-          <Card 
-            header={"WristGuard"}
-            body={"Concept device for sanitation worker safety. Winner, IXDA Student Design Challenge 2016."}
-            cardlink={"https://interactiondesign.sva.edu/blog/2016/wristguard-wins-the-2016-ixda-student-design"}
-          />
-        </div>
-        
-      </div>
+      <CardGrid />
     </section>
     <section>
       <div className="flex-grid">
