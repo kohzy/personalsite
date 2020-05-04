@@ -1,10 +1,4 @@
 ---
-- title: test
-  link: testlink
-  author: testauthor
-  publication: testpub
-  pubdate: testdate
-  transdate: testdate
 - title: Jack Ma on "996"
   link: https://docs.google.com/document/d/1_PZ0Q6Iv5BxlfNSycYNCWbmpGLLv4xeOhq_0hpbXGaY/edit?usp=sharing
   author: Jack Ma
@@ -59,3 +53,9 @@
   publication: Random Thoughts
   pubdate: "1987"
   transdate: In progress
+- title: test
+  link: testlink
+  author: testauthor
+  publication: testpub
+  pubdate: testdate
+  transdate: testdate
