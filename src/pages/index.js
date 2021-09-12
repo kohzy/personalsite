@@ -24,7 +24,6 @@ const IndexPage = () => (
       <div className="flex-grid-half">
         <div className="col">
           <ul className="secondary-nav">
-            <li><h4><a href="https://docs.google.com/document/d/18PWPhkJfq7Y-BbmgPNiEH2359H1xxxG0jB6SOq34Sx4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Questions</a></h4></li>
             <li><h4><Link to="/translations">Translations</Link></h4></li>
           </ul>
         </div>
@@ -57,13 +56,11 @@ const IndexPage = () => (
     <section>
       <div className="flex-grid-half">
         <div className="col">
-          <h4>Current research interests:</h4>
+          <h4>Research interests:</h4>
           <ul>
             <li>Mixed reality in shared spaces</li>
             <li>Translation among systems</li>
-            <li>Airplane turbulence and climate change</li>
             <li>The scope of things</li>
-            <li><a href="https://docs.google.com/document/d/18PWPhkJfq7Y-BbmgPNiEH2359H1xxxG0jB6SOq34Sx4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">and more...</a></li>
           </ul>
         </div>
         <div className="col press">
