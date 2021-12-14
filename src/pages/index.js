@@ -24,7 +24,8 @@ const IndexPage = () => (
       <div className="flex-grid-half">
         <div className="col">
           <ul className="secondary-nav">
-            <li><h4><Link to="/translations">Translations</Link></h4></li>
+            <li><h4>✍️ <Link to="/translations">Translations</Link></h4></li>
+            <li><h4>🍰 <a href="https://www.instagram.com/stories/highlights/18150381679064617/" target="_blank" rel="noopener noreferrer">Baking</a> and <a href="https://kohzy.notion.site/941dd1c296604897ad13301cfba33a5b?v=3abdff20ffa44e0d8eda969f0606917a" target="_blank" rel="noopener noreferrer">Baking</a></h4></li>
           </ul>
         </div>
         <div className="col">
