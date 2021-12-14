@@ -32,19 +32,19 @@ const IndexPage = () => (
           <table className="social-table">
             <tbody>
             <tr>
-              <td className="thirty">🤳 <h4 className="no-margin">Instagram</h4></td>
+              <td className="thirty"><h4 className="no-margin">🤳 Instagram</h4></td>
               <td><a href="https://www.instagram.com/koh_zy/" target="_blank" rel="noopener noreferrer">@koh_zy</a></td>
             </tr>
             <tr>
-              <td className="thirty">🔕 <h4 className="no-margin">Twitter</h4></td>
+              <td className="thirty"><h4 className="no-margin">🔕 Twitter</h4></td>
               <td><a href="https://twitter.com/kohzy" target="_blank" rel="noopener noreferrer">@kohzy</a></td>
             </tr>
             <tr>
-              <td className="thirty">🔎 <h4 className="no-margin">are.na</h4></td>
+              <td className="thirty"><h4 className="no-margin">🔎 are.na</h4></td>
               <td><a href="https://www.are.na/kohzy-koh-1515294007" target="_blank" rel="noopener noreferrer">Kohzy</a></td>
             </tr>
             <tr>
-              <td className="thirty">🧱 <h4 className="no-margin">Github</h4></td>
+              <td className="thirty"><h4 className="no-margin">🧱 Github</h4></td>
               <td><a href="https://github.com/kohzy" target="_blank" rel="noopener noreferrer">kohzy</a></td>
             </tr>
             </tbody>
