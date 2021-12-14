@@ -25,26 +25,26 @@ const IndexPage = () => (
         <div className="col">
           <ul className="secondary-nav">
             <li><h4>✍️ <Link to="/translations">Translations</Link></h4></li>
-            <li><h4>🍰 <a href="https://www.instagram.com/stories/highlights/18150381679064617/" target="_blank" rel="noopener noreferrer">Baking</a> and <a href="https://kohzy.notion.site/941dd1c296604897ad13301cfba33a5b?v=3abdff20ffa44e0d8eda969f0606917a" target="_blank" rel="noopener noreferrer">Baking</a></h4></li>
+            <li><h4>🍰 <a href="https://www.instagram.com/stories/highlights/18150381679064617/" target="_blank" rel="noopener noreferrer">Baking</a> and <a href="https://kohzy.notion.site/941dd1c296604897ad13301cfba33a5b?v=3abdff20ffa44e0d8eda969f0606917a" target="_blank" rel="noopener noreferrer">baking</a></h4></li>
           </ul>
         </div>
         <div className="col">
           <table className="social-table">
             <tbody>
             <tr>
-              <td className="thirty"><h4 className="no-margin">Instagram</h4></td>
+              <td className="thirty">🤳 <h4 className="no-margin">Instagram</h4></td>
               <td><a href="https://www.instagram.com/koh_zy/" target="_blank" rel="noopener noreferrer">@koh_zy</a></td>
             </tr>
             <tr>
-              <td className="thirty"><h4 className="no-margin">Twitter</h4></td>
+              <td className="thirty">🔕 <h4 className="no-margin">Twitter</h4></td>
               <td><a href="https://twitter.com/kohzy" target="_blank" rel="noopener noreferrer">@kohzy</a></td>
             </tr>
             <tr>
-              <td className="thirty"><h4 className="no-margin">are.na</h4></td>
+              <td className="thirty">🔎 <h4 className="no-margin">are.na</h4></td>
               <td><a href="https://www.are.na/kohzy-koh-1515294007" target="_blank" rel="noopener noreferrer">Kohzy</a></td>
             </tr>
             <tr>
-              <td className="thirty"><h4 className="no-margin">Github</h4></td>
+              <td className="thirty">🧱 <h4 className="no-margin">Github</h4></td>
               <td><a href="https://github.com/kohzy" target="_blank" rel="noopener noreferrer">kohzy</a></td>
             </tr>
             </tbody>
