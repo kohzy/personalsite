@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
             </div>
             <div className="flex-grid">
               <div className="col">
-                This is v3 of my site. The older versions are still alive, cached on platforms where I have stopped paying subscriptions to keep them public. I will one day go back and find some way to make them available.
+                This is v3 of my site. Older versions still lie fallow in private places that I might one day make public again.
               </div>
             </div>
           </footer>
