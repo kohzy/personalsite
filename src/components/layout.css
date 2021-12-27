@@ -7,8 +7,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgba(20, 0, 64, 1);
-  background-color: rgba(242, 254, 251, 1);
+  color: rgba(242, 254, 251, 1);
+  background-color: rgba(20, 0, 64, 1);
 }
 article,
 aside,
