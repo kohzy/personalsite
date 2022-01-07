@@ -40,7 +40,7 @@ const IndexPage = () => (
               <td><a href="https://twitter.com/kohzy" target="_blank" rel="noopener noreferrer">@kohzy</a></td>
             </tr>
             <tr>
-              <td className="thirty"><h4 className="no-margin"📃 Linkedin</h4></td>
+              <td className="thirty"><h4 className="no-margin">📃 Linkedin</h4></td>
               <td><a href="https://www.linkedin.com/in/kohzy/" target="_blank" rel="noopener noreferrer">kohzy</a></td>
             </tr>
             <tr>
