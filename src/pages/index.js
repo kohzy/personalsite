@@ -36,6 +36,10 @@ const IndexPage = () => (
               <td><a href="https://www.instagram.com/koh_zy/" target="_blank" rel="noopener noreferrer">@koh_zy</a></td>
             </tr>
             <tr>
+              <td className="thirty"><h4 className="no-margin">🤔 Medium</h4></td>
+              <td><a href="https://medium.com/@kohzy" target="_blank" rel="noopener noreferrer">@kohzy</a></td>
+            </tr>            
+            <tr>
               <td className="thirty"><h4 className="no-margin">🔕 Twitter</h4></td>
               <td><a href="https://twitter.com/kohzy" target="_blank" rel="noopener noreferrer">@kohzy</a></td>
             </tr>
